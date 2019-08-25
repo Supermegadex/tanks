@@ -11,7 +11,8 @@ canvas.height = window.innerHeight;
 
 // Start the game!
 const game = startGame(new Main(), {
-  canvas
+  canvas,
+  debug: true
 });
 
 function a(alias: string, code: string) {
@@ -23,9 +24,11 @@ a('1l', 'KeyA')
  ('1r', 'KeyD')
  ('1u', 'KeyW')
  ('1d', 'KeyS')
+ ('p1Fire', 'Space')
  ('2l', 'ArrowLeft')
  ('2r', 'ArrowRight')
  ('2u', 'ArrowUp')
- ('2d', 'ArrowDown');
+ ('2d', 'ArrowDown')
+ ('p2Fire', 'Enter');
 
 console.log(game);
