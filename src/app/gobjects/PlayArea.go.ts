@@ -1,9 +1,9 @@
-import { GObject } from "gamedeck/lib/GObject";
-import { Vector2 } from "gamedeck/lib/Utils";
-import { Game } from "gamedeck/lib";
+import { GObject } from 'gamedeck/lib/GObject';
+import { Vector2 } from 'gamedeck/lib/Utils';
+import { Game } from 'gamedeck/lib';
 
 export class PlayArea extends GObject {
-  constructor(props: { dimensions: Vector2; children: GObject[] }) {
+  constructor(props: { dimensions: Vector2; children: GObject[]; id: string }) {
     super(props);
   }
 

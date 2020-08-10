@@ -20,15 +20,7 @@ function a(alias: string, code: string) {
   return a;
 }
 
-a('1l', 'KeyA')
- ('1r', 'KeyD')
- ('1u', 'KeyW')
- ('1d', 'KeyS')
- ('p1Fire', 'Space')
- ('2l', 'ArrowLeft')
- ('2r', 'ArrowRight')
- ('2u', 'ArrowUp')
- ('2d', 'ArrowDown')
- ('p2Fire', 'Enter');
-
-console.log(game);
+a('1l', 'KeyA')('1r', 'KeyD')('1u', 'KeyW')('1d', 'KeyS')('p1Fire', 'Space')(
+  '2l',
+  'ArrowLeft'
+)('2r', 'ArrowRight')('2u', 'ArrowUp')('2d', 'ArrowDown')('p2Fire', 'Enter');
